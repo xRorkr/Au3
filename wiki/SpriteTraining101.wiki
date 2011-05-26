@@ -1,0 +1,154 @@
+=SPRITE TRAINING 101=
+
+This is no where done by the creater only another user whom uses this function alot. So I will update with what I have when updates come out. You will need the GFBOT from the shop in order to use this for your sprite.
+
+_Side note you do need to have basic knowledge of the bot before attempting more advanced things stated in this guide_
+
+GFBOT.INI setup
+
+First we have to start with your bot configuration or in other words you GFBOT.ini file this we have to update to allow bot to know a few things which is optional but very helpful when training:
+
+Open gfbot.ini in notepad or word editor:(Going to assume you already have it setup with reading the guide if not please do so)
+
+In the settings section we have to add a Few things to it or just add to one line of it:
+
+{{{
+MemRealTime=HP,MP,Sit,Curse,Charge,Target,TargetName,tX,tY,pX,pY,TargetHP,TargetHPCap,SHP,SHPCap,Direction
+}}}
+
+*Note*
+Now we need to add a few things so bot will know and keep updated when things happen which would be if sprite is summoned or/and if sprite stamina reaches a certain point also if the mood is a certain one to allow summoning or best possible collection new line would read:
+
+{{{
+MemRealTime=...................,Direction,SpriteState,SpriteState2,SpriteState3,callspr1,callspr2,callspr3,SprMood1,SprMood2,SprMood3
+}}}
+
+Now with that all in MemRealTime it does slow it down a lil and depending on the computer it would not interfere but if you are using your bot only for sprites then required to go there but if using it as a "bot" so it kills and such you can put in other line so updates only per kill that will be up to you and i will not be adding it as it is not needed for my guide at this time.
+
+With those added we need now to update the offsets as to where the program looks for stamina information look for section called offsets. Near the bottem of that section you should see:
+{{{
+SpriteState=STATUS,278,0,218
+}}}
+We have to add another 2 lines so that we know what the State of our sprites are:
+
+Adding after SpriteState:
+{{{
+SpriteState2=STATUS,278,4,218
+SpriteState3=STATUS,278,8,218
+}}}
+This will allow you to use the states of the sprites to determine if summoned or if can be fed.
+
+Next we work on the Char.ini file which will be name of your toon which controls when and what the bot does or doesn't do:
+
+I have not seen all the details in one spot so i am going to be NICE and include all the information i have collected so thank me if you must but just know most ALL this info I have found using search amazing huh? 
+
+open up your char.ini file:
+
+If you already have the following sections in there we will add to them minus the SPRITEGAMBITS... we are going to redo it from scratch as easier than tring to fix or modify:
+
+[SpriteGambits]
+[Shortcut]
+[Gambits]
+
+Now depending on what you want to do as to how we will setup this to work... Training only is fairly simple so we start there
+
+*TRAINING*
+
+We are going to use the simple thing as:
+{{{
+t1=1|2|3
+}}}
+It has been explained in previous posts and even in the release info first post but i will explain again:)
+
+"t1" is not very important as just a name i use so i know if there training or just collecting
+"1" Is the sprite i am training
+"2" is the line that it will train from (lines explained in next post)
+"3" is the collection line if does not have enought to train
+
+t1={SPRITE#}|{TRAIN LINE}|{COLLECTION LINE}
+
+*COLLECTION*
+
+Now for Collection only meaning you want your sprite to collect until you reach a certain amount.
+{{{
+c2=1|1000|4|Alt12
+}}}
+"c1" is just a name i use to let me know about Collection or Training
+"1000" is how many items to be collected
+"4" what line it is actually using to collect from (see next post for line information)
+"Alt12" is where you place the items for bot to count.. if not placed in there will collect until bot turned off(easy exp grinding)
+
+c1={SPRITE#}|{AMOUNT TO COLLECT}|{COLLECTION LINE}|{SPOT ON BAR}
+
+You can use Alt12,Alt11,Alt10,Alt9 (ie. Alt=, Alt-, Alt0, Alt9)
+
+
+==Information of the sprite states:==
+
+*Spr Moods* _Estimated_
+{{{
+_SprMood < 400 Means less than Normal
+_SprMood < 800 Means less than Elated
+}}}
+
+*Sprite States*
+{{{
+_SpriteState = 0 means not doing anything
+_SpriteState = 3 means summoned
+_SpriteState = 1 means training/collecting
+_SpriteState = 5/6 means OK/Event
+}}}
+
+Below is just how to best explain what lines are:
+
+*lines explanation*
+{{{
+- Mining                                - line 1
+  Some stuff to mine             - line 2
+  Some more stuff                - line 3
++Harvesting                         - line 4
+}}}
+
+Sprite Training Example ini:
+
+*char.ini sprite training only*
+{{{
+[SpriteGambits]
+t1=1|2|2
+t2=2|4|5
+t3=3|4|3
+
+[Shortcut]
+feed1=^1 {F6}
+feed2=^1 {F7}
+feed3=^1 {F8}
+
+[Gambits]
+feed1=_SprStamina1 < 100 AND _SpriteState = 0
+feed2=_SprStamina2 < 100 AND _SpriteState2 = 0
+feed3=_SprStamina3 < 100 AND _SpriteState3 = 0
+}}}
+
+Sprite Summoning example ini:
+
+*char.ini sprite summoning only*
+
+{{{
+[Shortcut]
+callspr1=SUMMON_SPR_1
+callspr2=SUMMON_SPR_2
+callspr3=SUMMON_SPR_3
+
+feed1=^1 {F6}
+feed2=^1 {F7}
+feed3=^1 {F8}
+
+[Gambits]
+feed1=_SprStamina1 < 150 AND _SpriteState = 0
+feed2=_SprStamina2 < 150 AND _SpriteState2 = 0
+feed3=_SprStamina3 < 150 AND _SpriteState3 = 0
+
+callspr1=_SpriteState != 3 AND SprStamina1 > 149
+callspr2=_SpriteState != 3 AND SprStamina2 > 149
+callspr3=_SpriteState != 3 AND SprStamina3 > 149
+}}}
