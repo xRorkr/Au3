@@ -1,0 +1,15 @@
+SpriteX=0x009C0CDC,4,8,C
+SpriteY=0x009C0CDC,4,8,10
+TrainX=0x009C0CDC+0x274,4,8,C
+TrainY=0x009C0CDC+0x274,4,8,10
+CollectX=0x009C0CDC+0x268,4,8,C
+CollectY=0x009C0CDC+0x268,4,8,10
+
+009BAA48,260,0,218
+5=OK 6=Event
+1=Work
+0=Nothing
+
+Ani
+0-working
+7-done
