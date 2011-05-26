@@ -1,14 +1,25 @@
-List of videos on how to get pointers
+=List of videos on how to get pointers=
 
 
-target - http://www.youtube.com/watch?v=pdLvUK6mvVY
-status - http://www.youtube.com/watch?v=_m3kFVEgWeU
-sprite - http://www.youtube.com/watch?v=jVXWOpZTM0Q
-player - http://www.youtube.com/watch?v=UlLzroDSs4c
-open - http://www.youtube.com/watch?v=rx0o26Izv4U
-name & char - http://www.youtube.com/watch?v=KgyosIBw5no
-misc - http://www.youtube.com/watch?v=gRdscUjB04E
-minimap - http://www.youtube.com/watch?v=chQoHsg2OVE
-map - http://www.youtube.com/watch?v=VvP4q9VDSso
-cursor - http://www.youtube.com/watch?v=PuEgfsw8jdc
-chat - http://www.youtube.com/watch?v=bKnz8OhLEf0
+==target==
+http://www.youtube.com/watch?v=pdLvUK6mvVY
+==status==
+http://www.youtube.com/watch?v=_m3kFVEgWeU
+==sprite==
+http://www.youtube.com/watch?v=jVXWOpZTM0Q
+==player==
+http://www.youtube.com/watch?v=UlLzroDSs4c
+==open==
+http://www.youtube.com/watch?v=rx0o26Izv4U
+==name & char==
+http://www.youtube.com/watch?v=KgyosIBw5no
+==misc==
+http://www.youtube.com/watch?v=gRdscUjB04E
+==minimap==
+http://www.youtube.com/watch?v=chQoHsg2OVE
+==map==
+http://www.youtube.com/watch?v=VvP4q9VDSso
+==cursor==
+http://www.youtube.com/watch?v=PuEgfsw8jdc
+==chat==
+http://www.youtube.com/watch?v=bKnz8OhLEf0
