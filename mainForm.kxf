@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="mainForm">
+	<properties>
+		<property name="Left" vt="Int16">192</property>
+		<property name="Top" vt="Int8">114</property>
+		<property name="Width" vt="Int16">265</property>
+		<property name="Height" vt="Int16">245</property>
+		<property name="Caption" vt="String">GFBot</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="Icon.Data" vt="Binary">
+			<bin>0000010001001010000000000000680500001600000028000000100000002000</bin>
+			<bin>000001000800000000000001000000000000000000000001000000000000784E</bin>
+			<bin>220000000000784E200000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000000</bin>
+			<bin>0000000000000000000000000000000000000000000000000000000000000101</bin>
+			<bin>0101010101010101010100000101010101010101010101010100000000010101</bin>
+			<bin>0101010101010101010100000101010101010101010101010100010100010101</bin>
+			<bin>0101010101010201010001010001010202020202020102010101000001010102</bin>
+			<bin>0101010102010201010101010101010201020101020102020202010101010102</bin>
+			<bin>0102020202010201010101010101010201010101010102010101010101010102</bin>
+			<bin>0101010101010201010101010101010201010101010102020202020101010102</bin>
+			<bin>0101010102010101010101010101010201010101020101010101010101010102</bin>
+			<bin>020202020201010101010101010101010101010101010101010101010101FFF3</bin>
+			<bin>0000FFE10000FFF30000FFED0000FF6D000081730000BD7F0000AD0F0000A17F</bin>
+			<bin>0000BF7F0000BF7F0000BF070000BDFF0000BDFF000081FF0000FFFF0000</bin>
+		</property>
+		<property name="OldCreateOrder" vt="False">False</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="PicturePath" vt="String">C:\Documents and Settings\VirtualXP\My Documents\Downloads\favicon.ico</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptIndentCount" vt="Int8">0</property>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TALabel" name="Label1">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int8">69</property>
+				<property name="Height" vt="Int8">17</property>
+				<property name="Caption" vt="String">Configuration:</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="HaveVariable" vt="False">False</property>
+				<property name="CtrlStyle" vt="Int32">1342177536</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAInput" name="configInput">
+			<properties>
+				<property name="Left" vt="Int8">80</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">161</property>
+				<property name="Height" vt="Int8">21</property>
+				<property name="TabOrder" vt="Int8">1</property>
+				<property name="Text" vt="String">gfbotconfig.ini</property>
+				<property name="CtrlStyle" vt="Int32">1342242944</property>
+				<property name="CtrlExStyle" vt="Int16">512</property>
+				<property name="Resizing" vt="Set">DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="startStopButton">
+			<properties>
+				<property name="Left" vt="Int16">168</property>
+				<property name="Top" vt="Int16">152</property>
+				<property name="Width" vt="Int8">73</property>
+				<property name="Height" vt="Int8">25</property>
+				<property name="Caption" vt="String">START</property>
+				<property name="TabOrder" vt="Int8">2</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342390272</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAStatusBar" name="infoStatus">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int16">188</property>
+				<property name="Width" vt="Int16">249</property>
+				<property name="Height" vt="Int8">19</property>
+				<property name="Panels" vt="Collection">
+					<collection/>
+				</property>
+				<property name="SimplePanel" vt="True">True</property>
+				<property name="SimpleText" vt="String">STOPPED</property>
+				<property name="CtrlStyle" vt="Int32">1342177280</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAGroup" name="Group1">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">32</property>
+				<property name="Width" vt="Int16">233</property>
+				<property name="Height" vt="Int8">113</property>
+				<property name="CtrlStyle" vt="Int32">1342308359</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Caption" vt="String">Character Info</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="Resizing" vt="Set"/>
+			</properties>
+			<components>
+				<object type="TALabel" name="hpLabel">
+					<properties>
+						<property name="Left" vt="Int8">40</property>
+						<property name="Top" vt="Int8">20</property>
+						<property name="Width" vt="Int8">114</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">0</property>
+						<property name="TabOrder" vt="Int8">0</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label3">
+					<properties>
+						<property name="Left" vt="Int8">9</property>
+						<property name="Top" vt="Int8">36</property>
+						<property name="Width" vt="Int8">26</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">MP:</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-11</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">1</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label2">
+					<properties>
+						<property name="Left" vt="Int8">9</property>
+						<property name="Top" vt="Int8">20</property>
+						<property name="Width" vt="Int8">25</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">HP:</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-11</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">2</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="mpLabel">
+					<properties>
+						<property name="Left" vt="Int8">40</property>
+						<property name="Top" vt="Int8">36</property>
+						<property name="Width" vt="Int8">114</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">0</property>
+						<property name="TabOrder" vt="Int8">3</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label4">
+					<properties>
+						<property name="Left" vt="Int8">9</property>
+						<property name="Top" vt="Int8">60</property>
+						<property name="Width" vt="Int8">47</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">Coords:</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-11</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">4</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="coordsLabel">
+					<properties>
+						<property name="Left" vt="Int8">56</property>
+						<property name="Top" vt="Int8">60</property>
+						<property name="Width" vt="Int16">165</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">X: 0 Y: 0</property>
+						<property name="TabOrder" vt="Int8">5</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="Label5">
+					<properties>
+						<property name="Left" vt="Int8">9</property>
+						<property name="Top" vt="Int8">80</property>
+						<property name="Width" vt="Int8">67</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">Waypoints:</property>
+						<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-11</property>
+						<property name="Font.Name" vt="String">MS Sans Serif</property>
+						<property name="Font.Style" vt="Set">fsBold</property>
+						<property name="ParentFont" vt="False">False</property>
+						<property name="TabOrder" vt="Int8">6</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+				<object type="TALabel" name="waypointLabel">
+					<properties>
+						<property name="Left" vt="Int8">80</property>
+						<property name="Top" vt="Int8">80</property>
+						<property name="Width" vt="Int8">42</property>
+						<property name="Height" vt="Int8">17</property>
+						<property name="Caption" vt="String">0</property>
+						<property name="TabOrder" vt="Int8">7</property>
+						<property name="HaveVariable" vt="False">False</property>
+						<property name="CtrlStyle" vt="Int32">1342177536</property>
+						<property name="CtrlExStyle" vt="Int8">0</property>
+						<property name="Resizing" vt="Set"/>
+					</properties>
+					<components/>
+				</object>
+			</components>
+		</object>
+	</components>
+</object>
