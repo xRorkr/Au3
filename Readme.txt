@@ -1,14 +1,5 @@
 For more informations visit us at:
-www.general-discussion.com
-
-For updates, check:
-http://www.general-discussion.com/grand-fantasia/grand-fantasia-bot-released/
-
-For guide on how to run the bot visit:
-http://www.general-discussion.com/grand-fantasia/grand-fantasia-trainer-bot-guide/
-
-For other client pointers go to:
-http://www.general-discussion.com/grand-fantasia/(pointer)-grand-fantasia-(de-en)/
+http://gfbot.altlimit.org/
 
 changelogs:
 v1.1.1.9 - 1/27/2011 - STABLE
